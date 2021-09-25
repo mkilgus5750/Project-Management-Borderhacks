@@ -10,5 +10,5 @@ def index(request):
 
 class ProjectsView(ListView):
     model = Project
-    template_name = 'team_finder/index.html'
+    template_name = 'team_finder/projects.html'
     context_object_name = 'projects'
