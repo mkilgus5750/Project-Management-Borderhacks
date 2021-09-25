@@ -4,7 +4,7 @@ from django.db.models.fields.related import ForeignKey
 
 # Create your models here.
 class Skill(models.Model):
-s
+    name = models.CharField(null=True, max_length=100)
 
 class Project(models.Model):
     name = models.CharField(max_length=100)

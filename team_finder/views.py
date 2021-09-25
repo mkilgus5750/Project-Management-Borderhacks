@@ -13,13 +13,16 @@ def match_team(slug):
 #   2) for skill in candidate.skills if candidates_skills in required_skills then add to consideration
 #   3) Find all the combinations of size n that meet the skill requirements starting from n=1 and going up until you have several team options
 #   4) Find the min/max of target attributes (price, experience, etc)
-    Project.objects.get(slug=slug)
+    # Project.objects.get(slug=slug)
+    project = Project.objects.get(slug=slug)
     all_candidates = Candidate.objects.all()
-
-    for candidate in all_candidates:
-        if(candidate.current_proj)
-
-    return render(request, 'team_finder/teams.html')
+# candidate will return object <Candidate: Name (index)>
+    # for candidate in all_candidates:
+    #     #nested for loop here, maybe
+        
+    #     if(candidate.current_proj == Project.start_date):
+            
+    #         raise Exception("Candidate is already assigned to a project"))
 
 
 def index(request):
