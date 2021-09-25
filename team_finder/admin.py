@@ -3,6 +3,12 @@ from .models import Project, Skill, Candidate
 
 # Register your models here.
 
-admin.site.register(Project)
+class ProjectAdmin(admin.ModelAdmin):
+    prepopulated_fields = {'slug': ('name',)}
+
+class CandidateAdmin(admin.ModelAdmin):
+    prepopulated_fields = {'slug': ('first_name',)}
+
+admin.site.register(Project, ProjectAdmin)
 admin.site.register(Skill)
-admin.site.register(Candidate)
+admin.site.register(Candidate, CandidateAdmin)
