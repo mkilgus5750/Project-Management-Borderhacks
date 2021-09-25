@@ -13,14 +13,14 @@ class Project(models.Model):
     start_date = models.DateField()
     end_date = models.DateField()
     skills_req = models.ManyToManyField(Skill)
-    slug = models.SlugField(unique=True, db_index=True)
+    slug = models.SlugField(null=True, db_index=True)
 
     def __str__(self):
         return self.name
 
 class Candidate(models.Model):
     first_name =  models.CharField(max_length=100)
-    slug = models.SlugField(unique=True, db_index=True)
+    slug = models.SlugField(null=True, db_index=True)
     last_name = models.CharField(max_length=100)
     title = models.CharField(max_length=100)
     email = models.EmailField()
