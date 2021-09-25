@@ -4,8 +4,7 @@ from django.db.models.fields.related import ForeignKey
 
 # Create your models here.
 class Skill(models.Model):
-    # TODO
-    dummyvalue = models.NullBooleanField()
+s
 
 class Project(models.Model):
     name = models.CharField(max_length=100)

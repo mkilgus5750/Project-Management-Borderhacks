@@ -15,8 +15,11 @@ def match_team(slug):
 #   4) Find the min/max of target attributes (price, experience, etc)
     Project.objects.get(slug=slug)
     all_candidates = Candidate.objects.all()
+
     for candidate in all_candidates:
-        pass
+        if(candidate.current_proj)
+
+    return render(request, 'team_finder/teams.html')
 
 
 def index(request):
