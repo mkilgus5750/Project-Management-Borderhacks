@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index():
-    pass
+def index(request):
+    return render(request, 'team_finder/index.html')
