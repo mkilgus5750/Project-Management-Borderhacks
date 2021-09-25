@@ -22,5 +22,3 @@ class Candidate(models.Model):
     years_exp = models.IntegerField()
     skills = models.ForeignKey(Skill, on_delete=models.CASCADE)
     current_proj = models.ForeignKey(Project, on_delete=models.CASCADE)
-
-
