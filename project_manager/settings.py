@@ -34,7 +34,7 @@ INTERNAL_IPS = [
 # Application definition
 
 INSTALLED_APPS = [
-    'tailwind',
+    # 'tailwind',
     'team_finder',
     'django.contrib.admin',
     'django.contrib.auth',
