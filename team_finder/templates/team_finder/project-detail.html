@@ -1,20 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-     {% for team in project.team_set.all %}
+     <!-- {% for team in project.team.all %}
         Total Cost: {{ team.total_rate }}
         Average Experience: {{ team.avg_experience }}
         Skills:
         {% for skill in total_skills %}
             <li>{{ skill }}</li>
         {% endfor  %}
-        {% for member in team %}
+        {% for member in team.member %}
             <li>
                 <li>Name: {{ member.first_name }} {{ member.last_name }}</li>
                 <li>Average Experience: {{ member.avg_experience }}</li>
             </li>
         {% endfor %}
-    {% endfor %}
+    {% empty %}
+        <h1>Empty</h1>
+    {% endfor %} -->
 
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="bg-gray-900">
@@ -26,13 +28,30 @@
 
         </div>
         <ul role="list" class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+            {% for team in project.team.all %}
           <li class="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
             <div class="space-y-6 xl:space-y-10">
-              <img class="mx-auto h-40 w-40 rounded-full xl:w-56 xl:h-56" src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt="">
               <div class="space-y-2 xl:flex xl:items-center xl:justify-between">
                 <div class="font-medium text-lg leading-6 space-y-1">
-                  <h3 class="text-white">Leonard Krasner</h3>
-                  <p class="text-indigo-400">Senior Designer</p>
+                    <ul class='text-white'>
+                        <p class="text-indigo-400">Rate:</p>
+                        <li>${{ team.total_rate }}</li>
+                        <p class="text-indigo-400">Average Experience:</p>
+                        <li>Average Experience: {{ team.avg_experience }}</li>
+                        <br>
+                        <p class="text-indigo-400">Skills:</p>
+                        {% for skill in team.total_skills.all %}
+                            <li>{{ skill }}</li>
+                        {% endfor  %}
+                        <br>
+                        <p class="text-indigo-400">Members:</p class="text-indigo-400">
+                        {% for member in team.members.all %}
+                            <li>
+                                <li>Name: {{ member.first_name }} {{ member.last_name }}</li>
+                                <li>Average Experience: {{ member.avg_experience }}</li>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
   
                 <ul role="list" class="flex justify-center space-x-5">
@@ -55,9 +74,11 @@
                 </ul>
               </div>
             </div>
+            
           </li>
-  
+          {% endfor %}
           <!-- More people... -->
+
         </ul>
       </div>
     </div>
