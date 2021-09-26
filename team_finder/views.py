@@ -86,14 +86,14 @@ def matched_team(project):
                     new_team.members.add(m)
 
 def index(request):
-    """
+
     data_proj = serializers.serialize("json", Project.objects.all())
     data_team = serializers.serialize("json", Team.objects.all())
     data_skil = serializers.serialize("json", Skill.objects.all())
     data_cand = serializers.serialize("json", Candidate.objects.all())
 
     with open('a.txt', 'w') as f:
-        f.write(data_proj)"""
+        f.write(data_cand)
     return render(request, 'team_finder/index.html', {
 
     })
