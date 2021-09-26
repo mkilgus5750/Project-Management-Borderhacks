@@ -5,6 +5,7 @@ from django.db.models.fields.related import ForeignKey
 # Create your models here.
 class Skill(models.Model):
     name = models.CharField(null=True, max_length=100)
+
     def __str__(self):
         return self.name
 

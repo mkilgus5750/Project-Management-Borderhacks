@@ -9,7 +9,6 @@ from .models import Project, Candidate, Team
 
 all_projects = Project.objects.all()
 
-
 def proj_overlap(project, all_projects):
     start = project.start_date
     end = project.end_date
