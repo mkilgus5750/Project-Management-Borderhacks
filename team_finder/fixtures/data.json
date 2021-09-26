@@ -1,0 +1,1555 @@
+[{
+        "fields": {
+            "description": "Make an e-commerce site",
+            "end_date": "2021-11-05",
+            "name": "Project 1",
+            "skills_req": [1, 2, 3, 7, 8, 9],
+            "slug": "project-1",
+            "start_date": "2021-07-1"
+        },
+        "model": "team_finder.project",
+        "pk": 1
+    }, {
+        "fields": {
+            "description": "Basket weaving optimization",
+            "end_date": "2022-01-10",
+            "name": "Project 2",
+            "skills_req": [12, 14, 15, 16, 17, 18],
+            "slug": "project-2",
+            "start_date": "2021-09-26"
+        },
+        "model": "team_finder.project",
+        "pk": 1
+    }, {
+        "fields": {
+            "description": "Drug Discovery Research",
+            "end_date": "2022-09-10",
+            "name": "Project 3",
+            "skills_req": [4, 5, 6, 11, 13, 19],
+            "slug": "project-3",
+            "start_date": "2022-02-26"
+        },
+        "model": "team_finder.project",
+        "pk": 1
+    }, {
+        "fields": {
+            "name": "UI Design"
+        },
+        "model": "team_finder.skill",
+        "pk": 1
+    }, {
+        "fields": {
+            "name": "Back-End"
+        },
+        "model": "team_finder.skill",
+        "pk": 2
+    }, {
+        "fields": {
+            "name": "Java"
+        },
+        "model": "team_finder.skill",
+        "pk": 3
+    }, {
+        "fields": {
+            "name": "Python"
+        },
+        "model": "team_finder.skill",
+        "pk": 4
+    }, {
+        "fields": {
+            "name": "Fortran"
+        },
+        "model": "team_finder.skill",
+        "pk": 5
+    }, {
+        "fields": {
+            "name": "Statistics"
+        },
+        "model": "team_finder.skill",
+        "pk": 6
+    }, {
+        "fields": {
+            "name": "Salesforce"
+        },
+        "model": "team_finder.skill",
+        "pk": 7
+    }, {
+        "fields": {
+            "name": "DevOps"
+        },
+        "model": "team_finder.skill",
+        "pk": 8
+    }, {
+        "fields": {
+            "name": "Spring"
+        },
+        "model": "team_finder.skill",
+        "pk": 9
+    }, {
+        "fields": {
+            "name": "SQL"
+        },
+        "model": "team_finder.skill",
+        "pk": 10
+    }, {
+        "fields": {
+            "name": "Chemistry"
+        },
+        "model": "team_finder.skill",
+        "pk": 11
+    }, {
+        "fields": {
+            "name": "Public Speaking"
+        },
+        "model": "team_finder.skill",
+        "pk": 12
+    }, {
+        "fields": {
+            "name": "C++"
+        },
+        "model": "team_finder.skill",
+        "pk": 13
+    }, {
+        "fields": {
+            "name": "Electrical Engineering"
+        },
+        "model": "team_finder.skill",
+        "pk": 14
+    }, {
+        "fields": {
+            "name": "Embedded Systems"
+        },
+        "model": "team_finder.skill",
+        "pk": 15
+    }, {
+        "fields": {
+            "name": "Cooking"
+        },
+        "model": "team_finder.skill",
+        "pk": 16
+    }, {
+        "fields": {
+            "name": "Basket weaving"
+        },
+        "model": "team_finder.skill",
+        "pk": 17
+    }, {
+        "fields": {
+            "name": "Magic"
+        },
+        "model": "team_finder.skill",
+        "pk": 18
+    }, {
+        "fields": {
+            "name": "Sklearn"
+        },
+        "model": "team_finder.skill",
+        "pk": 19
+    }, {
+        "fields": {
+            "name": "Project Management"
+        },
+        "model": "team_finder.skill",
+        "pk": 20
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "cerickssen0@globo.com",
+            "first_name": "Cirilo",
+            "last_name": "Erickssen",
+            "rate": 23.6,
+            "skills": [19, 2, 5],
+            "slug": "cirilo-erickssen",
+            "title": "Senior Editor",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 1
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "bsher1@china.com.cn",
+            "first_name": "Bryna",
+            "last_name": "Sher",
+            "rate": 77.2,
+            "skills": [20, 20, 14],
+            "slug": "bryna-sher",
+            "title": "Developer III",
+            "years_exp": 12
+        },
+        "model": "team_finder.candidate",
+        "pk": 2
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "oitscowicz2@4shared.com",
+            "first_name": "Obie",
+            "last_name": "Itscowicz",
+            "rate": 97.6,
+            "skills": [4, 13, 11],
+            "slug": "obie-itscowicz",
+            "title": "Web Designer I",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 3
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "mparmeter3@telegraph.co.uk",
+            "first_name": "Meredeth",
+            "last_name": "Parmeter",
+            "rate": 63.8,
+            "skills": [6, 9, 16],
+            "slug": "meredeth-parmeter",
+            "title": "Legal Assistant",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 4
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "ablunkett4@marketwatch.com",
+            "first_name": "Alexis",
+            "last_name": "Blunkett",
+            "rate": 49.9,
+            "skills": [5, 9, 15],
+            "slug": "alexis-blunkett",
+            "title": "Registered Nurse",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 5
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "mtarte5@unesco.org",
+            "first_name": "Maegan",
+            "last_name": "Tarte",
+            "rate": 39.6,
+            "skills": [16, 4, 5],
+            "slug": "maegan-tarte",
+            "title": "Sales Associate",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 6
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "cshillan6@imgur.com",
+            "first_name": "Cynthea",
+            "last_name": "Shillan",
+            "rate": 46.8,
+            "skills": [10, 16, 6],
+            "slug": "cynthea-shillan",
+            "title": "Recruiting Manager",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 7
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "spetrishchev7@technorati.com",
+            "first_name": "Sigismundo",
+            "last_name": "Petrishchev",
+            "rate": 29.1,
+            "skills": [8, 13, 9],
+            "slug": "sigismundo-petrishchev",
+            "title": "Civil Engineer",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 8
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ibonner8@house.gov",
+            "first_name": "Ilyse",
+            "last_name": "Bonner",
+            "rate": 36.6,
+            "skills": [13, 16, 16],
+            "slug": "ilyse-bonner",
+            "title": "Research Associate",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 9
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "efawlo9@tuttocitta.it",
+            "first_name": "Etty",
+            "last_name": "Fawlo",
+            "rate": 41.0,
+            "skills": [15, 16, 19],
+            "slug": "etty-fawlo",
+            "title": "Cost Accountant",
+            "years_exp": 17
+        },
+        "model": "team_finder.candidate",
+        "pk": 10
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "vohallagana@craigslist.org",
+            "first_name": "Vale",
+            "last_name": "O'Hallagan",
+            "rate": 99.8,
+            "skills": [20, 15, 12],
+            "slug": "vale-o'hallagan",
+            "title": "Biostatistician II",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 11
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "bpiattib@cloudflare.com",
+            "first_name": "Bronson",
+            "last_name": "Piatti",
+            "rate": 82.9,
+            "skills": [10, 20, 11],
+            "slug": "bronson-piatti",
+            "title": "Assistant Professor",
+            "years_exp": 11
+        },
+        "model": "team_finder.candidate",
+        "pk": 12
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "nosheerinc@unesco.org",
+            "first_name": "Naoma",
+            "last_name": "O'Sheerin",
+            "rate": 96.0,
+            "skills": [15, 1, 7],
+            "slug": "naoma-o'sheerin",
+            "title": "Analyst Programmer",
+            "years_exp": 13
+        },
+        "model": "team_finder.candidate",
+        "pk": 13
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "jgaskampd@vimeo.com",
+            "first_name": "Joni",
+            "last_name": "Gaskamp",
+            "rate": 87.2,
+            "skills": [10, 10, 16],
+            "slug": "joni-gaskamp",
+            "title": "Assistant Media Planner",
+            "years_exp": 6
+        },
+        "model": "team_finder.candidate",
+        "pk": 14
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "ztimmise@google.co.jp",
+            "first_name": "Zarla",
+            "last_name": "Timmis",
+            "rate": 66.6,
+            "skills": [18, 16, 4],
+            "slug": "zarla-timmis",
+            "title": "Graphic Designer",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 15
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "mausiellof@bbb.org",
+            "first_name": "Michaela",
+            "last_name": "Ausiello",
+            "rate": 44.5,
+            "skills": [10, 16, 11],
+            "slug": "michaela-ausiello",
+            "title": "Office Assistant I",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 16
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "kbenwellg@seattletimes.com",
+            "first_name": "Karon",
+            "last_name": "Benwell",
+            "rate": 38.2,
+            "skills": [11, 2, 4],
+            "slug": "karon-benwell",
+            "title": "Financial Advisor",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 17
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "bcrevaghh@bloglovin.com",
+            "first_name": "Betteann",
+            "last_name": "Crevagh",
+            "rate": 21.8,
+            "skills": [6, 12, 15],
+            "slug": "betteann-crevagh",
+            "title": "Research Associate",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 18
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "spykei@nbcnews.com",
+            "first_name": "Sophi",
+            "last_name": "Pyke",
+            "rate": 76.9,
+            "skills": [18, 13, 10],
+            "slug": "sophi-pyke",
+            "title": "Assistant Manager",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 19
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "anewlandsj@unblog.fr",
+            "first_name": "Armand",
+            "last_name": "Newlands",
+            "rate": 45.9,
+            "skills": [3, 8, 1],
+            "slug": "armand-newlands",
+            "title": "Librarian",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 20
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "vbraccok@bluehost.com",
+            "first_name": "Venita",
+            "last_name": "Bracco",
+            "rate": 91.9,
+            "skills": [6, 13, 18],
+            "slug": "venita-bracco",
+            "title": "Staff Scientist",
+            "years_exp": 10
+        },
+        "model": "team_finder.candidate",
+        "pk": 21
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "acolumbinel@webeden.co.uk",
+            "first_name": "Ardith",
+            "last_name": "Columbine",
+            "rate": 37.8,
+            "skills": [1, 11, 8],
+            "slug": "ardith-columbine",
+            "title": "Pharmacist",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 22
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "kgrovem@uol.com.br",
+            "first_name": "Kial",
+            "last_name": "Grove",
+            "rate": 95.7,
+            "skills": [17, 8, 16],
+            "slug": "kial-grove",
+            "title": "Business Systems Development Analyst",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 23
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "asedworthn@twitpic.com",
+            "first_name": "Ardis",
+            "last_name": "Sedworth",
+            "rate": 35.8,
+            "skills": [8, 8, 3],
+            "slug": "ardis-sedworth",
+            "title": "Account Coordinator",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 24
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "slittello@scribd.com",
+            "first_name": "Shaylah",
+            "last_name": "Littell",
+            "rate": 75.9,
+            "skills": [14, 11, 4],
+            "slug": "shaylah-littell",
+            "title": "Nuclear Power Engineer",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 25
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "cgouthp@blogger.com",
+            "first_name": "Claudetta",
+            "last_name": "Gouth",
+            "rate": 27.6,
+            "skills": [20, 8, 7],
+            "slug": "claudetta-gouth",
+            "title": "Payment Adjustment Coordinator",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 26
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "khyneq@joomla.org",
+            "first_name": "Kathye",
+            "last_name": "Hyne",
+            "rate": 44.7,
+            "skills": [1, 13, 14],
+            "slug": "kathye-hyne",
+            "title": "Environmental Specialist",
+            "years_exp": 11
+        },
+        "model": "team_finder.candidate",
+        "pk": 27
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "rhecknerr@meetup.com",
+            "first_name": "Reed",
+            "last_name": "Heckner",
+            "rate": 94.0,
+            "skills": [6, 10, 3],
+            "slug": "reed-heckner",
+            "title": "Accounting Assistant II",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 28
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "cmcrorys@nature.com",
+            "first_name": "Conway",
+            "last_name": "McRory",
+            "rate": 89.6,
+            "skills": [20, 11, 3],
+            "slug": "conway-mcrory",
+            "title": "Actuary",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 29
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "cvongrollmannt@theguardian.com",
+            "first_name": "Claudell",
+            "last_name": "von Grollmann",
+            "rate": 31.2,
+            "skills": [5, 14, 11],
+            "slug": "claudell-von grollmann",
+            "title": "Health Coach III",
+            "years_exp": 5
+        },
+        "model": "team_finder.candidate",
+        "pk": 30
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "jfrancombeu@gov.uk",
+            "first_name": "Jenda",
+            "last_name": "Francombe",
+            "rate": 27.7,
+            "skills": [20, 1, 7],
+            "slug": "jenda-francombe",
+            "title": "Human Resources Manager",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 31
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "vbrokerv@simplemachines.org",
+            "first_name": "Vilhelmina",
+            "last_name": "Broker",
+            "rate": 46.3,
+            "skills": [12, 17, 15],
+            "slug": "vilhelmina-broker",
+            "title": "Statistician II",
+            "years_exp": 18
+        },
+        "model": "team_finder.candidate",
+        "pk": 32
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "vdewsburyw@disqus.com",
+            "first_name": "Vincents",
+            "last_name": "Dewsbury",
+            "rate": 45.5,
+            "skills": [6, 8, 20],
+            "slug": "vincents-dewsbury",
+            "title": "Internal Auditor",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 33
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "tarchbellx@networksolutions.com",
+            "first_name": "Tedd",
+            "last_name": "Archbell",
+            "rate": 95.3,
+            "skills": [19, 4, 7],
+            "slug": "tedd-archbell",
+            "title": "Civil Engineer",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 34
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "yvanderspohry@livejournal.com",
+            "first_name": "Yelena",
+            "last_name": "Van der Spohr",
+            "rate": 33.5,
+            "skills": [5, 19, 17],
+            "slug": "yelena-van der spohr",
+            "title": "Compensation Analyst",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 35
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "bnialsz@house.gov",
+            "first_name": "Bobbe",
+            "last_name": "Nials",
+            "rate": 27.6,
+            "skills": [18, 10, 15],
+            "slug": "bobbe-nials",
+            "title": "Structural Engineer",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 36
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "okeneforde10@independent.co.uk",
+            "first_name": "Osgood",
+            "last_name": "Keneforde",
+            "rate": 47.7,
+            "skills": [19, 2, 15],
+            "slug": "osgood-keneforde",
+            "title": "Pharmacist",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 37
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "tclapshaw11@ehow.com",
+            "first_name": "Tracey",
+            "last_name": "Clapshaw",
+            "rate": 88.0,
+            "skills": [10, 2, 17],
+            "slug": "tracey-clapshaw",
+            "title": "Operator",
+            "years_exp": 20
+        },
+        "model": "team_finder.candidate",
+        "pk": 38
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "efairs12@printfriendly.com",
+            "first_name": "Emlyn",
+            "last_name": "Fairs",
+            "rate": 83.1,
+            "skills": [4, 16, 16],
+            "slug": "emlyn-fairs",
+            "title": "Structural Engineer",
+            "years_exp": 20
+        },
+        "model": "team_finder.candidate",
+        "pk": 39
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "chickeringill13@bloglovin.com",
+            "first_name": "Constancia",
+            "last_name": "Hickeringill",
+            "rate": 37.1,
+            "skills": [9, 13, 14],
+            "slug": "constancia-hickeringill",
+            "title": "Physical Therapy Assistant",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 40
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ctremoulet14@yellowbook.com",
+            "first_name": "Chauncey",
+            "last_name": "Tremoulet",
+            "rate": 50.5,
+            "skills": [16, 15, 13],
+            "slug": "chauncey-tremoulet",
+            "title": "Database Administrator I",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 41
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "dpreece15@pen.io",
+            "first_name": "Dee dee",
+            "last_name": "Preece",
+            "rate": 46.2,
+            "skills": [17, 17, 11],
+            "slug": "dee dee-preece",
+            "title": "Budget/Accounting Analyst III",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 42
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "jheeley16@sfgate.com",
+            "first_name": "Jazmin",
+            "last_name": "Heeley",
+            "rate": 55.3,
+            "skills": [15, 20, 18],
+            "slug": "jazmin-heeley",
+            "title": "Database Administrator II",
+            "years_exp": 11
+        },
+        "model": "team_finder.candidate",
+        "pk": 43
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "acorry17@trellian.com",
+            "first_name": "Anett",
+            "last_name": "Corry",
+            "rate": 39.7,
+            "skills": [12, 2, 20],
+            "slug": "anett-corry",
+            "title": "Recruiter",
+            "years_exp": 18
+        },
+        "model": "team_finder.candidate",
+        "pk": 44
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "sfowles18@yellowpages.com",
+            "first_name": "Shermy",
+            "last_name": "Fowles",
+            "rate": 45.9,
+            "skills": [15, 7, 12],
+            "slug": "shermy-fowles",
+            "title": "Information Systems Manager",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 45
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "pdulwitch19@sogou.com",
+            "first_name": "Pail",
+            "last_name": "Dulwitch",
+            "rate": 82.1,
+            "skills": [2, 11, 15],
+            "slug": "pail-dulwitch",
+            "title": "Cost Accountant",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 46
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "ewalley1a@mysql.com",
+            "first_name": "Eryn",
+            "last_name": "Walley",
+            "rate": 55.0,
+            "skills": [18, 1, 15],
+            "slug": "eryn-walley",
+            "title": "Occupational Therapist",
+            "years_exp": 16
+        },
+        "model": "team_finder.candidate",
+        "pk": 47
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "hnewarte1b@shop-pro.jp",
+            "first_name": "Hermy",
+            "last_name": "Newarte",
+            "rate": 35.6,
+            "skills": [19, 11, 8],
+            "slug": "hermy-newarte",
+            "title": "Information Systems Manager",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 48
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "ashirtliff1c@geocities.com",
+            "first_name": "Antone",
+            "last_name": "Shirtliff",
+            "rate": 87.5,
+            "skills": [11, 10, 19],
+            "slug": "antone-shirtliff",
+            "title": "Human Resources Assistant III",
+            "years_exp": 18
+        },
+        "model": "team_finder.candidate",
+        "pk": 49
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "gtames1d@mac.com",
+            "first_name": "Grace",
+            "last_name": "Tames",
+            "rate": 27.1,
+            "skills": [13, 14, 19],
+            "slug": "grace-tames",
+            "title": "Graphic Designer",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 50
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "krenachowski1e@nytimes.com",
+            "first_name": "Kassie",
+            "last_name": "Renachowski",
+            "rate": 86.5,
+            "skills": [14, 12, 11],
+            "slug": "kassie-renachowski",
+            "title": "Structural Engineer",
+            "years_exp": 20
+        },
+        "model": "team_finder.candidate",
+        "pk": 51
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "sruhben1f@businessweek.com",
+            "first_name": "Sarette",
+            "last_name": "Ruhben",
+            "rate": 90.9,
+            "skills": [18, 7, 20],
+            "slug": "sarette-ruhben",
+            "title": "Human Resources Manager",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 52
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "bzold1g@acquirethisname.com",
+            "first_name": "Brenden",
+            "last_name": "Zold",
+            "rate": 80.3,
+            "skills": [12, 17, 3],
+            "slug": "brenden-zold",
+            "title": "Junior Executive",
+            "years_exp": 5
+        },
+        "model": "team_finder.candidate",
+        "pk": 53
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "mbousquet1h@earthlink.net",
+            "first_name": "Minda",
+            "last_name": "Bousquet",
+            "rate": 81.0,
+            "skills": [8, 7, 20],
+            "slug": "minda-bousquet",
+            "title": "Executive Secretary",
+            "years_exp": 11
+        },
+        "model": "team_finder.candidate",
+        "pk": 54
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ajustun1i@globo.com",
+            "first_name": "April",
+            "last_name": "Justun",
+            "rate": 90.4,
+            "skills": [18, 14, 5],
+            "slug": "april-justun",
+            "title": "Compensation Analyst",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 55
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "ntabard1j@nbcnews.com",
+            "first_name": "Norrie",
+            "last_name": "Tabard",
+            "rate": 44.5,
+            "skills": [15, 4, 20],
+            "slug": "norrie-tabard",
+            "title": "Operator",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 56
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "tsenechault1k@ted.com",
+            "first_name": "Thaine",
+            "last_name": "Senechault",
+            "rate": 89.0,
+            "skills": [5, 19, 17],
+            "slug": "thaine-senechault",
+            "title": "Systems Administrator II",
+            "years_exp": 12
+        },
+        "model": "team_finder.candidate",
+        "pk": 57
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ehein1l@loc.gov",
+            "first_name": "Elyn",
+            "last_name": "Hein",
+            "rate": 62.0,
+            "skills": [20, 15, 15],
+            "slug": "elyn-hein",
+            "title": "Structural Analysis Engineer",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 58
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "gcartner1m@usatoday.com",
+            "first_name": "Glynda",
+            "last_name": "Cartner",
+            "rate": 85.1,
+            "skills": [7, 7, 10],
+            "slug": "glynda-cartner",
+            "title": "Nuclear Power Engineer",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 59
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "cmunson1n@telegraph.co.uk",
+            "first_name": "Cherish",
+            "last_name": "Munson",
+            "rate": 29.6,
+            "skills": [7, 13, 7],
+            "slug": "cherish-munson",
+            "title": "Legal Assistant",
+            "years_exp": 20
+        },
+        "model": "team_finder.candidate",
+        "pk": 60
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "kgazzard1o@admin.ch",
+            "first_name": "Kesley",
+            "last_name": "Gazzard",
+            "rate": 25.3,
+            "skills": [10, 14, 17],
+            "slug": "kesley-gazzard",
+            "title": "Payment Adjustment Coordinator",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 61
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "klorkin1p@wix.com",
+            "first_name": "Kin",
+            "last_name": "Lorkin",
+            "rate": 80.0,
+            "skills": [4, 3, 8],
+            "slug": "kin-lorkin",
+            "title": "Account Executive",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 62
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "fstappard1q@youtu.be",
+            "first_name": "Flory",
+            "last_name": "Stappard",
+            "rate": 78.4,
+            "skills": [7, 10, 7],
+            "slug": "flory-stappard",
+            "title": "General Manager",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 63
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "lbartkowiak1r@mozilla.com",
+            "first_name": "Lazare",
+            "last_name": "Bartkowiak",
+            "rate": 95.7,
+            "skills": [2, 4, 6],
+            "slug": "lazare-bartkowiak",
+            "title": "Senior Financial Analyst",
+            "years_exp": 13
+        },
+        "model": "team_finder.candidate",
+        "pk": 64
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "bweall1s@statcounter.com",
+            "first_name": "Beatrisa",
+            "last_name": "Weall",
+            "rate": 82.8,
+            "skills": [4, 11, 12],
+            "slug": "beatrisa-weall",
+            "title": "Financial Analyst",
+            "years_exp": 13
+        },
+        "model": "team_finder.candidate",
+        "pk": 65
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "frabbitt1t@kickstarter.com",
+            "first_name": "Ford",
+            "last_name": "Rabbitt",
+            "rate": 84.0,
+            "skills": [19, 6, 18],
+            "slug": "ford-rabbitt",
+            "title": "Accounting Assistant IV",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 66
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ohindenburg1u@tripod.com",
+            "first_name": "Omero",
+            "last_name": "Hindenburg",
+            "rate": 57.4,
+            "skills": [4, 3, 4],
+            "slug": "omero-hindenburg",
+            "title": "Senior Financial Analyst",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 67
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "ahaughton1v@epa.gov",
+            "first_name": "Aube",
+            "last_name": "Haughton",
+            "rate": 82.4,
+            "skills": [8, 2, 1],
+            "slug": "aube-haughton",
+            "title": "Food Chemist",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 68
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "acicconettii1w@phpbb.com",
+            "first_name": "Andrey",
+            "last_name": "Cicconettii",
+            "rate": 67.6,
+            "skills": [4, 1, 3],
+            "slug": "andrey-cicconettii",
+            "title": "Nuclear Power Engineer",
+            "years_exp": 10
+        },
+        "model": "team_finder.candidate",
+        "pk": 69
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "rninnis1x@scribd.com",
+            "first_name": "Roch",
+            "last_name": "Ninnis",
+            "rate": 38.8,
+            "skills": [7, 9, 14],
+            "slug": "roch-ninnis",
+            "title": "Marketing Manager",
+            "years_exp": 11
+        },
+        "model": "team_finder.candidate",
+        "pk": 70
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "avelte1y@uol.com.br",
+            "first_name": "Adda",
+            "last_name": "Velte",
+            "rate": 23.3,
+            "skills": [16, 5, 11],
+            "slug": "adda-velte",
+            "title": "Product Engineer",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 71
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "ctownsend1z@un.org",
+            "first_name": "Curry",
+            "last_name": "Townsend",
+            "rate": 57.4,
+            "skills": [16, 1, 9],
+            "slug": "curry-townsend",
+            "title": "Assistant Media Planner",
+            "years_exp": 16
+        },
+        "model": "team_finder.candidate",
+        "pk": 72
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "mableson20@nhs.uk",
+            "first_name": "Margi",
+            "last_name": "Ableson",
+            "rate": 62.4,
+            "skills": [7, 19, 9],
+            "slug": "margi-ableson",
+            "title": "Paralegal",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 73
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "scashell21@yahoo.com",
+            "first_name": "Sergei",
+            "last_name": "Cashell",
+            "rate": 40.3,
+            "skills": [1, 1, 20],
+            "slug": "sergei-cashell",
+            "title": "Operator",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 74
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "kfisbey22@vkontakte.ru",
+            "first_name": "Konstance",
+            "last_name": "Fisbey",
+            "rate": 27.8,
+            "skills": [5, 20, 2],
+            "slug": "konstance-fisbey",
+            "title": "Programmer IV",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 75
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "hjury23@yahoo.co.jp",
+            "first_name": "Hannis",
+            "last_name": "Jury",
+            "rate": 37.3,
+            "skills": [16, 17, 15],
+            "slug": "hannis-jury",
+            "title": "Staff Accountant I",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 76
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "vconduit24@google.it",
+            "first_name": "Viole",
+            "last_name": "Conduit",
+            "rate": 47.1,
+            "skills": [2, 14, 4],
+            "slug": "viole-conduit",
+            "title": "Occupational Therapist",
+            "years_exp": 18
+        },
+        "model": "team_finder.candidate",
+        "pk": 77
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "ipennrington25@ucoz.com",
+            "first_name": "Ingra",
+            "last_name": "Pennrington",
+            "rate": 97.9,
+            "skills": [7, 9, 8],
+            "slug": "ingra-pennrington",
+            "title": "Senior Developer",
+            "years_exp": 14
+        },
+        "model": "team_finder.candidate",
+        "pk": 78
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "npalfery26@symantec.com",
+            "first_name": "Nowell",
+            "last_name": "Palfery",
+            "rate": 71.8,
+            "skills": [13, 16, 16],
+            "slug": "nowell-palfery",
+            "title": "Software Consultant",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 79
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "amumberson27@comcast.net",
+            "first_name": "Alard",
+            "last_name": "Mumberson",
+            "rate": 92.0,
+            "skills": [15, 7, 11],
+            "slug": "alard-mumberson",
+            "title": "Pharmacist",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 80
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "htrousdell28@ted.com",
+            "first_name": "Hatti",
+            "last_name": "Trousdell",
+            "rate": 56.1,
+            "skills": [9, 7, 20],
+            "slug": "hatti-trousdell",
+            "title": "Research Associate",
+            "years_exp": 13
+        },
+        "model": "team_finder.candidate",
+        "pk": 81
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "sgrolmann29@sitemeter.com",
+            "first_name": "Sunny",
+            "last_name": "Grolmann",
+            "rate": 68.2,
+            "skills": [12, 4, 4],
+            "slug": "sunny-grolmann",
+            "title": "Senior Cost Accountant",
+            "years_exp": 15
+        },
+        "model": "team_finder.candidate",
+        "pk": 82
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "dwingeatt2a@washingtonpost.com",
+            "first_name": "Deane",
+            "last_name": "Wingeatt",
+            "rate": 81.7,
+            "skills": [3, 14, 12],
+            "slug": "deane-wingeatt",
+            "title": "Physical Therapy Assistant",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 83
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "ndance2b@fda.gov",
+            "first_name": "Nonnah",
+            "last_name": "Dance",
+            "rate": 97.2,
+            "skills": [4, 4, 20],
+            "slug": "nonnah-dance",
+            "title": "General Manager",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 84
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "gkingcote2c@macromedia.com",
+            "first_name": "Giles",
+            "last_name": "Kingcote",
+            "rate": 35.6,
+            "skills": [2, 11, 2],
+            "slug": "giles-kingcote",
+            "title": "Teacher",
+            "years_exp": 7
+        },
+        "model": "team_finder.candidate",
+        "pk": 85
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "elambell2d@homestead.com",
+            "first_name": "Ericha",
+            "last_name": "Lambell",
+            "rate": 73.2,
+            "skills": [3, 8, 2],
+            "slug": "ericha-lambell",
+            "title": "Analog Circuit Design manager",
+            "years_exp": 18
+        },
+        "model": "team_finder.candidate",
+        "pk": 86
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "pgermann2e@nih.gov",
+            "first_name": "Payton",
+            "last_name": "Germann",
+            "rate": 41.9,
+            "skills": [3, 14, 16],
+            "slug": "payton-germann",
+            "title": "Quality Engineer",
+            "years_exp": 10
+        },
+        "model": "team_finder.candidate",
+        "pk": 87
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "mjerram2f@sourceforge.net",
+            "first_name": "Maybelle",
+            "last_name": "Jerram",
+            "rate": 54.8,
+            "skills": [19, 18, 3],
+            "slug": "maybelle-jerram",
+            "title": "Quality Control Specialist",
+            "years_exp": 3
+        },
+        "model": "team_finder.candidate",
+        "pk": 88
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "vbennedick2g@networkadvertising.org",
+            "first_name": "Vinnie",
+            "last_name": "Bennedick",
+            "rate": 89.3,
+            "skills": [3, 7, 12],
+            "slug": "vinnie-bennedick",
+            "title": "Nuclear Power Engineer",
+            "years_exp": 20
+        },
+        "model": "team_finder.candidate",
+        "pk": 89
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "alofty2h@craigslist.org",
+            "first_name": "Aguste",
+            "last_name": "Lofty",
+            "rate": 40.4,
+            "skills": [13, 5, 17],
+            "slug": "aguste-lofty",
+            "title": "Account Representative I",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 90
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "tfolks2i@time.com",
+            "first_name": "Terese",
+            "last_name": "Folks",
+            "rate": 66.9,
+            "skills": [14, 16, 7],
+            "slug": "terese-folks",
+            "title": "Assistant Manager",
+            "years_exp": 9
+        },
+        "model": "team_finder.candidate",
+        "pk": 91
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "dpanniers2j@networksolutions.com",
+            "first_name": "Dore",
+            "last_name": "Panniers",
+            "rate": 90.5,
+            "skills": [13, 11, 9],
+            "slug": "dore-panniers",
+            "title": "Marketing Manager",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 92
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "gdorset2k@squidoo.com",
+            "first_name": "Gibbie",
+            "last_name": "Dorset",
+            "rate": 62.2,
+            "skills": [10, 7, 12],
+            "slug": "gibbie-dorset",
+            "title": "Senior Editor",
+            "years_exp": 17
+        },
+        "model": "team_finder.candidate",
+        "pk": 93
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "esentinella2l@dagondesign.com",
+            "first_name": "Emelda",
+            "last_name": "Sentinella",
+            "rate": 30.2,
+            "skills": [9, 17, 17],
+            "slug": "emelda-sentinella",
+            "title": "Associate Professor",
+            "years_exp": 8
+        },
+        "model": "team_finder.candidate",
+        "pk": 94
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "bdaws2m@tripadvisor.com",
+            "first_name": "Bail",
+            "last_name": "Daws",
+            "rate": 88.9,
+            "skills": [7, 8, 15],
+            "slug": "bail-daws",
+            "title": "Financial Advisor",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 95
+    }, {
+        "fields": {
+            "current_proj": 1,
+            "email": "alayburn2n@hao123.com",
+            "first_name": "Alberik",
+            "last_name": "Layburn",
+            "rate": 43.4,
+            "skills": [6, 18, 8],
+            "slug": "alberik-layburn",
+            "title": "Clinical Specialist",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 96
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "evarker2o@earthlink.net",
+            "first_name": "Ermengarde",
+            "last_name": "Varker",
+            "rate": 98.0,
+            "skills": [6, 8, 9],
+            "slug": "ermengarde-varker",
+            "title": "VP Quality Control",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 97
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "abreckin2p@go.com",
+            "first_name": "Ardys",
+            "last_name": "Breckin",
+            "rate": 96.2,
+            "skills": [6, 2, 11],
+            "slug": "ardys-breckin",
+            "title": "Operator",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 98
+    }, {
+        "fields": {
+            "current_proj": 3,
+            "email": "alavin2q@g.co",
+            "first_name": "Aurora",
+            "last_name": "Lavin",
+            "rate": 77.8,
+            "skills": [20, 8, 15],
+            "slug": "aurora-lavin",
+            "title": "Health Coach III",
+            "years_exp": 4
+        },
+        "model": "team_finder.candidate",
+        "pk": 99
+    }, {
+        "fields": {
+            "current_proj": 2,
+            "email": "bbrisco2r@taobao.com",
+            "first_name": "Barbaraanne",
+            "last_name": "Brisco",
+            "rate": 93.0,
+            "skills": [8, 10, 16],
+            "slug": "barbaraanne-brisco",
+            "title": "Biostatistician II",
+            "years_exp": 19
+        },
+        "model": "team_finder.candidate",
+        "pk": 100
+    }
+]

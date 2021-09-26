@@ -3,7 +3,8 @@ import itertools
 from django.shortcuts import render
 from django.views.generic import ListView
 from django.views.generic.detail import DetailView
-from .models import Project, Candidate, Team
+from .models import Project, Candidate, Team, Skill
+from django.core import serializers
 
 # Create your views here.
 
@@ -85,7 +86,19 @@ def matched_team(project):
                     new_team.members.add(m)
 
 def index(request):
-    return render(request, 'team_finder/index.html')
+    data_proj = serializers.serialize("json", Project.objects.all())
+    data_team = serializers.serialize("json", Team.objects.all())
+    data_skil = serializers.serialize("json", Skill.objects.all())
+    data_cand = serializers.serialize("json", Candidate.objects.all())
+
+    with open('a.txt', 'w') as f:
+        f.write(data_proj)
+    return render(request, 'team_finder/index.html', {
+        'data_proj': data_proj,
+        'data_team': data_team,
+        'data_skil': data_skil,
+        'data_cand': data_cand
+    })
 
 class ProjectsView(ListView):
     model = Project

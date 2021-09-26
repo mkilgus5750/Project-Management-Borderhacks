@@ -1,0 +1,199 @@
+[{
+        "fields": {
+            "description": "sdfankdlsfd",
+            "end_date": "2021-09-29",
+            "name": "Project 1",
+            "skills_req": [1],
+            "slug": "project-1",
+            "start_date": "2021-09-26"
+        },
+        "model": "team_finder.project",
+        "pk": 1
+    }, {
+        "fields": {
+            "description": "sldkjflskdjfsdf",
+            "end_date": "2021-09-30",
+            "name": "Project 2",
+            "skills_req": [1, 2],
+            "slug": "project-2",
+            "start_date": "2021-09-26"
+        },
+        "model": "team_finder.project",
+        "pk": 2
+    }, {
+        "fields": {
+            "avg_experience": 1.0,
+            "members": [1],
+            "total_rate": 10000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 1
+    }, {
+        "fields": {
+            "avg_experience": 2.0,
+            "members": [2],
+            "total_rate": 1000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 2
+    }, {
+        "fields": {
+            "avg_experience": 1.5,
+            "members": [1, 2],
+            "total_rate": 11000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 3
+    }, {
+        "fields": {
+            "avg_experience": 1.0,
+            "members": [1],
+            "total_rate": 10000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 4
+    }, {
+        "fields": {
+            "avg_experience": 2.0,
+            "members": [2],
+            "total_rate": 1000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 5
+    }, {
+        "fields": {
+            "avg_experience": 1.5,
+            "members": [1, 2],
+            "total_rate": 11000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 6
+    }, {
+        "fields": {
+            "avg_experience": 1.0,
+            "members": [1],
+            "total_rate": 10000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 7
+    }, {
+        "fields": {
+            "avg_experience": 2.0,
+            "members": [2],
+            "total_rate": 1000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 8
+    }, {
+        "fields": {
+            "avg_experience": 1.5,
+            "members": [1, 2],
+            "total_rate": 11000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 9
+    }, {
+        "fields": {
+            "avg_experience": 1.0,
+            "members": [1],
+            "total_rate": 10000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 10
+    }, {
+        "fields": {
+            "avg_experience": 2.0,
+            "members": [2],
+            "total_rate": 1000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 11
+    }, {
+        "fields": {
+            "avg_experience": 1.5,
+            "members": [1, 2],
+            "total_rate": 11000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 12
+    }, {
+        "fields": {
+            "avg_experience": 1.0,
+            "members": [1],
+            "total_rate": 10000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 13
+    }, {
+        "fields": {
+            "avg_experience": 2.0,
+            "members": [2],
+            "total_rate": 1000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 14
+    }, {
+        "fields": {
+            "avg_experience": 1.5,
+            "members": [1, 2],
+            "total_rate": 11000.0,
+            "total_skills": [1, 2]
+        },
+        "model": "team_finder.team",
+        "pk": 15
+    }, {
+        "fields": {
+            "name": "Coding"
+        },
+        "model": "team_finder.skill",
+        "pk": 1
+    }, {
+        "fields": {
+            "name": "Smiling"
+        },
+        "model": "team_finder.skill",
+        "pk": 2
+    }, {
+        "fields": {
+            "current_proj": [1, 2],
+            "email": "sdfs@nsdkf.ed",
+            "first_name": "Emily",
+            "last_name": "Wu",
+            "rate": 10000.0,
+            "skills": [1, 2],
+            "slug": "emily",
+            "title": "Software Engineer",
+            "years_exp": 1
+        },
+        "model": "team_finder.candidate",
+        "pk": 1
+    }, {
+        "fields": {
+            "current_proj": [1],
+            "email": "sdfsd@sldjfk.edu",
+            "first_name": "Joe",
+            "last_name": "Shmo",
+            "rate": 1000.0,
+            "skills": [1],
+            "slug": "joe",
+            "title": "Coder",
+            "years_exp": 2
+        },
+        "model": "team_finder.candidate",
+        "pk": 2
+    }
+]
