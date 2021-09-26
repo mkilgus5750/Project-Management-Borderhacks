@@ -34,6 +34,7 @@ INTERNAL_IPS = [
 # Application definition
 
 INSTALLED_APPS = [
+    'django_extensions',
     'tailwind',
     'theme',
     'team_finder',

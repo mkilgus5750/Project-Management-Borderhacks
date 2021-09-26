@@ -66,7 +66,7 @@ def matched_team(project):
             all_candidates.pop(i)
 
     valid_combos = []
-    for j in range(1, 5):
+    for j in range(1, 2):
         combos = itertools.combinations(all_candidates, j)
         total_skills = []
         valid = True
@@ -86,7 +86,7 @@ def matched_team(project):
                     new_team.members.add(m)
 
 def index(request):
-
+    """
     data_proj = serializers.serialize("json", Project.objects.all())
     data_team = serializers.serialize("json", Team.objects.all())
     data_skil = serializers.serialize("json", Skill.objects.all())
@@ -94,6 +94,7 @@ def index(request):
 
     with open('a.txt', 'w') as f:
         f.write(data_cand)
+        """
     return render(request, 'team_finder/index.html', {
 
     })
@@ -107,6 +108,7 @@ class ProjectDetail(DetailView):
     model = Project
     template_name = 'team_finder/project-detail.html'
     all_projects = Project.objects.all()
+
     def get_context_data(self, **kwargs):
         context = super(ProjectDetail, self).get_context_data(**kwargs)
         matched_team(self.object)
