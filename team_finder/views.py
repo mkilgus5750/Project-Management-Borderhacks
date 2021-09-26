@@ -66,12 +66,14 @@ def matched_team(project):
             all_candidates.pop(i)
 
     count = 0
-    for j in range(1, 8):
+    for j in range(1, 4):
         if count >= 10:
             break
         print(j)
         combos = itertools.combinations(all_candidates, j)
         for combo in combos:
+            if count >= 10:
+                break
             total_skills = []
             valid = True
             for candidate in combo:
@@ -84,6 +86,8 @@ def matched_team(project):
                 count += 1
                 new_team = Team(avg_experience=avg_exp(combo), total_rate=total_rate(combo))
                 new_team.save()
+
+                project.team.add(new_team)
 
                 for s in total_skills:
                     new_team.total_skills.add(s)
