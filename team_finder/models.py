@@ -13,8 +13,8 @@ class Project(models.Model):
     start_date = models.DateField()
     end_date = models.DateField()
     skills_req = models.ManyToManyField(Skill)
-    team = models.ForeignKey('Team',  on_delete=models.CASCADE, null=True)
-    slug = models.SlugField(null=True, db_index=True)
+    team = models.ForeignKey('Team', on_delete=models.CASCADE, null=True)
+    slug = models.SlugField(db_index=True)
     def __str__(self):
         return self.name
 
@@ -26,8 +26,8 @@ class Candidate(models.Model):
     email = models.EmailField()
     rate = models.FloatField()
     years_exp = models.IntegerField()
-    skills = models.ManyToManyField(Skill)
-    current_proj = models.ManyToManyField(Project)
+    skills = models.ManyToManyField(Skill, null=True)
+    current_proj = models.ManyToManyField(Project, null=True)
     def __str__(self):
         return self.first_name + ' ' + self.last_name
 
