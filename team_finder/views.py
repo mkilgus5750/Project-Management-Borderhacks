@@ -65,18 +65,23 @@ def matched_team(project):
         if candidate.current_proj.all() in overlap_projects and candidate.skills.all() not in project.skills_req.all():
             all_candidates.pop(i)
 
-    valid_combos = []
-    for j in range(1, 2):
+    count = 0
+    for j in range(1, 8):
+        if count >= 10:
+            break
+        print(j)
         combos = itertools.combinations(all_candidates, j)
-        total_skills = []
-        valid = True
         for combo in combos:
+            total_skills = []
+            valid = True
             for candidate in combo:
                 total_skills += candidate.skills.all()
             for skill in project.skills_req.all():
                 if skill not in total_skills:
                     valid = False
             if valid:
+                print('SUCCESS')
+                count += 1
                 new_team = Team(avg_experience=avg_exp(combo), total_rate=total_rate(combo))
                 new_team.save()
 
@@ -84,6 +89,14 @@ def matched_team(project):
                     new_team.total_skills.add(s)
                 for m in combo:
                     new_team.members.add(m)
+            else:
+                pass
+                print('INVALID')
+                print('needed: ' + str(project.skills_req.all()))
+                print('total: ' + str(total_skills))
+                print(combo)
+                print('---------------')
+
 
 def index(request):
     """
