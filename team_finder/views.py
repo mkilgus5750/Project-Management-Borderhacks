@@ -7,7 +7,7 @@ from .models import Project, Candidate, Team
 
 # Create your views here.
 
-all_projects = Project.objects.all()
+
 
 def proj_overlap(project, all_projects):
     start = project.start_date
@@ -78,9 +78,6 @@ def matched_team(project):
             if valid:
                 Team.objects.create(members=combo, total_skills=total_skills,
                                     avg_experience=avg_exp(combo),total_rate=total_rate(combo))
-
-for project in all_projects:
-     matched_team(project)
 
 def index(request):
     return render(request, 'team_finder/index.html')
