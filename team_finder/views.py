@@ -95,7 +95,7 @@ def index(request):
     with open('a.txt', 'w') as f:
         f.write(data_proj)"""
     return render(request, 'team_finder/index.html', {
-        
+
     })
 
 class ProjectsView(ListView):

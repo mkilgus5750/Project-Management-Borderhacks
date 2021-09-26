@@ -13,7 +13,7 @@ class Project(models.Model):
     start_date = models.DateField()
     end_date = models.DateField()
     skills_req = models.ManyToManyField(Skill)
-    team = models.ManyToManyField('Team')
+    team = models.ForeignKey('Team',  on_delete=models.CASCADE, null=True)
     slug = models.SlugField(null=True, db_index=True)
     def __str__(self):
         return self.name
