@@ -91,10 +91,12 @@ class ProjectsView(ListView):
 class ProjectDetail(DetailView):
     model = Project
     template_name = 'team_finder/project-detail.html'
-    # def get_context_data(self, **kwargs):
-    #     context = super(ProjectDetail, self).get_context_data(**kwargs)
-    #     context['tasks'] = Task.objects.filter(list=self.object)
-    #     return context
+    all_projects = Project.objects.all()
+    def get_context_data(self, **kwargs):
+        context = super(ProjectDetail, self).get_context_data(**kwargs)
+        for project in all_projects:
+            matched_team(self.object)
+        return context
 
 class CandidatesView(ListView):
     model = Candidate
