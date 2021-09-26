@@ -13,4 +13,3 @@ admin.site.register(Project, ProjectAdmin)
 admin.site.register(Skill)
 admin.site.register(Team)
 admin.site.register(Candidate, CandidateAdmin)
-
