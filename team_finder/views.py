@@ -76,7 +76,7 @@ def matched_team(project):
                 if skill not in total_skills:
                     valid = False
             if valid:
-                Team.objects.create(members=combo, total_skills=total_skills,
+                Team.objects.set(members=combo, total_skills=total_skills,
                                     avg_experience=avg_exp(combo),total_rate=total_rate(combo))
 
 def index(request):

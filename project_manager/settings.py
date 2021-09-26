@@ -34,7 +34,8 @@ INTERNAL_IPS = [
 # Application definition
 
 INSTALLED_APPS = [
-    # 'tailwind',
+    'tailwind',
+    'theme',
     'team_finder',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -54,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-TAILWIND_APP_NAME = 'team_finder'
+TAILWIND_APP_NAME = 'theme'
 
 ROOT_URLCONF = 'project_manager.urls'
 
