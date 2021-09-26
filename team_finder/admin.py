@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Project, Skill, Candidate
+from .models import Project, Skill, Candidate, Team
 
 # Register your models here.
 
@@ -11,4 +11,6 @@ class CandidateAdmin(admin.ModelAdmin):
 
 admin.site.register(Project, ProjectAdmin)
 admin.site.register(Skill)
+admin.site.register(Team)
 admin.site.register(Candidate, CandidateAdmin)
+
