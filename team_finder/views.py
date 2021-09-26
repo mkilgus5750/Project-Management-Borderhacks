@@ -15,9 +15,11 @@ def proj_overlap(project, all_projects):
 
     overlap_projects = []
 
+    #print(all_projects)
+
     for p in all_projects:
         if (start <= p.end_date and end >= p.start_date):
-            overlap_projects += p
+            overlap_projects += [p]
 
     return overlap_projects
 
@@ -35,14 +37,13 @@ def avg_exp(team):
 
     return total / len(team)
 
-
-def matched_team(slug):
+def matched_team(project):
     #   1) Find available candidates
     #      - If a candidate is assigned to a project that conflicts with the one we are concerned with, they are not considered
     #   2) for skill in candidate.skills if candidates_skills in required_skills then add to consideration
     #   3) Find all the combinations of size n that meet the skill requirements starting from n=1 and going up until you have several team options
     #   4) Find the min/max of target attributes (price, experience, etc)
-    project = Project.objects.get(slug=slug)
+    # project = Project.objects.get(slug=slug)
     all_candidates = Candidate.objects.all()
     # candidate will return object <Candidate: Name (index)>
     # >>> emily = Candidate.objects.get(first_name="Emily")
@@ -78,10 +79,11 @@ def matched_team(slug):
                 Team.objects.create(members=combo, total_skills=total_skills,
                                     avg_experience=avg_exp(combo),total_rate=total_rate(combo))
 
+for project in all_projects:
+     matched_team(project)
 
 def index(request):
     return render(request, 'team_finder/index.html')
-
 
 class ProjectsView(ListView):
     model = Project
