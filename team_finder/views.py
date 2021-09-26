@@ -7,7 +7,7 @@ from .models import Project, Candidate, Team
 
 # Create your views here.
 
-
+all_projects = Project.objects.all()
 
 def proj_overlap(project, all_projects):
     start = project.start_date
@@ -61,7 +61,7 @@ def matched_team(project):
     overlap_projects = proj_overlap(project, all_projects)
 
     for i, candidate in enumerate(all_candidates):
-        if candidate.project.all() in overlap_projects and candidate.skills.all() not in project.skills_req.all():
+        if candidate.current_proj.all() in overlap_projects and candidate.skills.all() not in project.skills_req.all():
             all_candidates.pop(i)
 
     valid_combos = []
